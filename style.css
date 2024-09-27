@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d5e1ef; /* Warna biru muda */
+}
+
+.outer-container {
+  width: 1440px;
+  height: 960px;
+  background-color: #add8e6; /* Warna biru muda */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  width: 320px;
+  height: 499px;
+  background-color: #fff; /* Warna putih */
+  display: flex;
+  padding-top: 16px;
+  align-items: center;
+  border-radius: 10px; /* Opsional, untuk memberi sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opsional, untuk memberi bayangan */
+  flex-direction: column; /* Agar elemen di dalamnya ditumpuk secara vertikal */
+}
+
+.qr-image {
+  width: 288px;
+  height: 288px;
+  object-fit: cover; /* Menyesuaikan ukuran gambar */
+  margin-bottom: 20px; /* Opsional: jarak antara gambar dan bagian bawah container */
+}
+.description {
+  padding-top: 24px;
+  text-align: center;
+  font-size: 20px;
+  color: #1f314f;
+}
+.description2 {
+  padding-top: 16px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  color: #64748b;
+}
